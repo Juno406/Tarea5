@@ -1,0 +1,109 @@
+.container{
+display: inline-flex;
+width: 100%;
+}
+.sub-container{
+    width: 60%;
+}
+header{
+    text-align: center;
+}
+h1{
+    font-family: 'Zen Dots', cursive;
+    color: rgb(2,0,36);
+    color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,124,82,1) 10%, rgba(9,121,76,0.8141631652661064) 40%, rgba(0,212,255,1) 100%);
+    font-size: 50px;
+}
+.imagenT{
+width: 100%;
+
+}
+figure{
+    width: 80%;
+}
+.figure2{
+    display: flex;
+}
+aside{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+    width: 40%;
+    padding: 3rem;
+    text-align: center;
+
+}
+.imagen1{
+    width: 400px;
+
+    
+}
+.imagen2{
+    width: 400px;
+    
+}
+.texto{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Zen Dots', cursive;
+    color: red;
+    width: 500px;
+}
+.lorem{
+    font-size: 20px;
+    font-family: 'Coda Caption', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Zen Dots', cursive;
+
+}
+p{
+    width: 50%;
+}
+.imagen3{
+    width: 500px;
+}
+h3{
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Zen Dots', cursive;
+font-size: 30px;
+}
+.formulario{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+ 
+    
+}
+.input{
+ display: block;
+ margin-left: 200px;
+ padding: 5px;
+ margin-top: 5px;
+ width: 300px;
+ height: 55px;
+ border-radius: 10px;  
+ border-color: #92B00C;
+ font-family: 'Coda Caption', sans-serif;
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Zen Dots', cursive;
+ background: rgb(238,174,202);
+ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.boton{
+    width: 300px;
+    height: 55px;
+    border-radius: 15px;
+    border-color: black;        
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Zen Dots', cursive;
+}
+@media (max-width:400px){
+    aside{
+        display: none;
+    }
+    body{
+        background-color: gray;
+    }
+  }
